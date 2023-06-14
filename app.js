@@ -34,3 +34,12 @@ const tv = document.querySelector('.tv')
 const flipTv = () => {
     tv.classList.toggle('flip')
 }
+
+
+// spin logo
+const logo = document.querySelector('.logo')
+
+const spinLogo = () => {
+    console.log('spinning')
+    logo.classList.toggle('spin')
+}

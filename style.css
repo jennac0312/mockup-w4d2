@@ -597,3 +597,14 @@ p.grey{
 .flip{
     animation: flip 5s infinite ease-in-out;
 }
+
+
+@keyframes spin {
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+.spin{
+    animation: spin 3s infinite;
+}
