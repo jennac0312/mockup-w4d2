@@ -17,3 +17,20 @@ const adContainer = document.querySelector('.adContainer')
 const closeAd = () => {
     adContainer.classList.toggle('hidden')
 }
+
+
+// rise steven universe blue guy
+
+const blueGuy = document.querySelector('.steven')
+
+const riseBlueGuy = () => {
+    blueGuy.classList.toggle('rise')
+}
+
+
+//flip tv
+
+const tv = document.querySelector('.tv')
+const flipTv = () => {
+    tv.classList.toggle('flip')
+}
