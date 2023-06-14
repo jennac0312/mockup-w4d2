@@ -1,0 +1,478 @@
+body{
+    margin: 0;
+    /* margin-top: -15px */
+}
+
+.termsContainer{
+    height: 90px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.termsContainer .middle{
+    /* justify-self: center; */
+    margin: auto;
+}
+
+.termsContainer .middle p{
+    font-weight: 800;
+}
+
+.big{
+    font-weight: bold;
+    font-size: 1.2em;
+    /* text-decoration: underline; */
+    border-bottom: 3px solid black;
+    margin: 0 10px;
+}
+
+.big:hover{
+    cursor: pointer;
+    border-width: 4.5px;
+}
+
+.close{
+    margin-right: 20px;
+    border: 3px solid black;
+    background-color: transparent;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.close:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* header */
+
+header{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+header * {
+    margin: 8px 25px
+}
+
+header *:hover{
+    cursor: pointer;
+}
+
+.logo{
+    height: 55px;
+}
+
+/* main */
+
+/* tophalf */
+
+.topHalf{
+    background-color: #2a338e;
+    color: white;
+    padding-top: 50px;
+    border: 2px solid black
+}
+
+.tv {
+    height: 55px;
+    margin-left: 25px;
+    margin-right: 20px
+}
+
+.topHalf h1 {
+    display: flex;
+    align-items: center;
+}
+
+/* toptop plane */
+
+.topTop{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: black;
+    margin: 0 30px;
+    padding: 5px;
+    height: 300px
+}
+
+.topHalf:hover{
+    cursor: pointer;
+}
+
+.plane{
+    width: 60%
+}
+
+.planeInfo{
+    margin: 28px;
+    margin-top: 20px
+}
+
+.planeInfoTop{
+    display: flex;
+    align-items: top;
+}
+
+.planeInfoTop h3 {
+    margin-left: 20px;
+    color: grey;
+    font-size: 1.6em;
+    margin-top: -2px
+}
+
+.planeInfo .planeInfoTop + h3{
+    margin-top: 30px;
+    font-size: 1.6em;
+}
+
+.planeInfo .planeInfoTop + h3 + button {
+    background-color: transparent;
+    color: grey;
+    font-weight: bold;
+    font-size: 2em;
+    border: 1.5px solid grey;
+    border-radius: 40px;
+    height: 55px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+/* tophalf bottom */
+
+.topHalf .bottom {
+    /* background-color: black; */
+    margin: 0 30px;
+    padding: 5px;
+    height: 275px;
+    display: flex;
+}
+
+.topHalf .bottom > div{
+    background-color: black;
+    margin: 0 2px;
+    padding: 5px;
+}
+
+.topHalf .bottom img{
+    width: 100%;
+    height: auto
+}
+
+.miniImg{
+    height: 60px !important;
+    width: 60px !important;
+}
+
+.topHalf .bottom .left{
+    margin-left: -5px
+}
+.topHalf .bottom .left, .topHalf .bottom .middle {
+    width: 44%
+}
+
+.moreInfo{
+    display: flex;
+    margin: 10px 20px;
+    /* align-items: start; */
+    margin-right: 0px;
+}
+
+.moreInfo div{
+    margin-left: 15px;
+    margin-top: -18px
+}
+
+.moreInfo h5{
+    color: pink;
+    margin-bottom: 0;
+    /* padding-bottom: 0; */
+}
+
+.moreInfo p {
+    margin-top: 0
+}
+
+/* bottom right */
+
+.bottom .right {
+    width: 28%;
+    background-color: transparent !important;
+    text-align: center;
+    /* margin-top: -24px !important; */
+    margin-left: -3px !important;
+    margin-right:  -9px !important;
+}
+
+.app, .unlocked{
+    background-color: black;
+    /* height: 47%; */
+}
+
+.app + .app {
+    /* margin-top: -15px */
+}
+
+.app, .unlocked{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: space-between ; */
+    margin-top: 3px;
+    height: 136px   
+}
+
+.app{
+    margin-top: -4.5px;
+}
+
+.video {
+    background-color: pink;
+    color: #2a338e;
+    font-size: 2em;
+    font-weight: bold;
+    height: 75px;
+    width: 500px;
+    border-radius: 40px;
+    margin-bottom: 200px;
+}
+
+.video:hover{
+    cursor: pointer;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* bottom half green background */
+
+.bottomHalf{
+    background-color: #1c9763;
+    margin-top: -20px;
+    padding-top: 40px;
+}
+.bottomHalf > *{
+    margin: 20px
+}
+
+.bottomHalf h2{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 2.7em;
+}
+
+.controller {
+    height: 45px;
+    margin-right: 20px
+}
+
+.bottomHalf .top{
+    background-color: white;
+    padding: .5em;
+    display: flex;
+    height: 300px;
+    margin-top: 30px !important
+}
+.bottomHalf .top img{
+    border: 1px solid grey;
+}
+
+.bottomHalf .top:hover{
+    cursor: pointer;
+}
+
+.bottomHalf .top img {
+    width: 60%
+}
+.bottomHalf .top .rightSide{
+    margin-left: 20px
+}
+.bottomHalf .top:hover button {
+    color: white;
+    background-color: black;
+}
+
+.rightSide h3 {
+    color: grey;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.rightSide p {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.rightSide button {
+    color: green;
+    background-color: white;
+    border: 1px solid grey;
+    height: 45px;
+    width: 310px;
+    border-radius: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    /* margin: auto; */
+    margin-top: 120px;
+}
+
+.rightSide:hover button{
+    color: white;
+    background-color: black;
+
+}
+
+/* bottom half... bottom */
+
+.row1, .row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.row1 > *, .row2 > *{
+    background-color: white;
+    padding: 4px;
+    width: 23.5%;
+}
+
+.row2{
+    margin-top: 8px
+}
+
+.playBox {
+    font-weight: bold;
+    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.playBox *{
+    margin: 0
+}
+
+.playBox p{
+    margin: 10px
+}
+
+.green{
+    color: green;
+}
+
+/* ad */
+
+.adContainer{
+    background-color: lightgray;
+    margin-top: 10px;
+    width: fit-content;
+    margin: auto;
+    padding: 8px;
+    margin-top: 30px !important
+}
+
+.adContainer p {
+    margin: 0;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: .7em;
+    font-weight: 600;
+    padding-bottom: 1.2em;
+}
+
+.gamesButtonContainer {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 60px 0 !important;
+    padding-bottom: 200px;
+}
+
+.gamesButtonContainer button {
+    color: white;
+    background-color: black;
+    height: 70px;
+    width: 500px;
+    border-radius: 40px;
+    font-size: 2em;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: -60px;
+    display: flex;
+}
+
+.leftColumn{
+    margin-top: 50px;
+    margin-left: 40px;
+    border-right: 2px solid rgba(128,128,128,.5);
+    padding-right: 35px;
+    font-size: .75em;
+    font-weight: bold;
+    height: 360px
+}
+
+.leftColumn p {
+    margin-bottom: 20px
+}
+
+p.blue {
+    color: skyblue
+}
+
+.leftColumn p:hover{
+    color: hotpink;
+    cursor: pointer;
+}
+
+p.blue:hover {
+    color: skyblue
+}
+
+.middleColumn{
+    margin: 50px;
+    margin-left: 80px
+}
+
+.cart{
+    margin-left: 20px
+}
+
+.topText{
+    font-size: .75em;
+    font-weight: bold;
+    margin-top: 22px
+}
+
+p.grey{
+    color: grey;
+    font-size: .65em;
+    margin-top: 30px
+}
+
+.bottomImg{
+    margin-top: 30px
+}
+
+.bottomImg img{
+    height: 30px;
+    margin-right: 20px
+}
+
+.lastText{
+    font-size: .8em;
+    margin-top: 30px
+}
