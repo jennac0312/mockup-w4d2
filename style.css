@@ -1,7 +1,12 @@
+*{
+    /* border: 2px solid red; */
+}
+
 body{
     margin: 0;
     /* margin-top: -15px */
     font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .termsContainer{
@@ -55,11 +60,12 @@ header{
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
-    margin-bottom: 7px;
+    /* margin-bottom: 9px; */
+    margin-bottom: 2px;
 }
 
 header * {
-    margin: 8px 25px;
+    margin: 8px 22px;
     margin-bottom: 4px;
 }
 
@@ -69,6 +75,13 @@ header *:hover{
 
 .logo{
     height: 55px;
+    margin-left: 25px
+}
+
+.headerContainer h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: black;
 }
 
 /* main */
@@ -78,14 +91,14 @@ header *:hover{
 .topHalf{
     background-color: #2a338e;
     color: white;
-    padding-top: 100px;
+    padding-top: 50px;
     border: 2px solid black;
-    padding-bottom: 200px;
-
+    padding-bottom: 216px;
 }
 
 .tv {
     height: 50px;
+    width: 68px;
     margin-left: 25px;
     margin-right: 20px
 }
@@ -96,6 +109,8 @@ header *:hover{
     font-size: 2.6em;
     font-weight: 900;
     /* letter-spacing: .75px; */
+    /* bordeR: 2px solid red; */
+    margin-top: 12px
 }
 
 /* toptop plane */
@@ -106,7 +121,7 @@ header *:hover{
     background-color: black;
     margin: 0 30px;
     padding: 5px;
-    height: 300px
+    height: 300px;
 }
 
 .topTop:hover, .topTop + .bottom>*:hover{  /* woah details details */
@@ -122,6 +137,10 @@ header *:hover{
     margin-top: 20px
 }
 
+.arthurPic{
+    height: 80px
+}
+
 .planeInfoTop{
     display: flex;
     align-items: top;
@@ -131,24 +150,39 @@ header *:hover{
     margin-left: 20px;
     color: rgb(163, 163, 163);
     font-size: 1.6em;
-    margin-top: -2px
+    margin-top: -2px;
+    /* letter-spacing: .3px; */
 }
 
 .planeInfo .planeInfoTop + h3{
     margin-top: 30px;
     font-size: 1.6em;
+    font-weight: 400;
 }
 
 .planeInfo .planeInfoTop + h3 + button {
     background-color: transparent;
     color: rgb(163, 163, 163);
-    font-weight: bold;
+    font-weight: 500;
     font-size: 2em;
-    border: 1.5px solid grey;
+    border: 2px solid rgba(163, 163, 163,.5);
     border-radius: 40px;
     height: 55px;
     width: 300px;
-    margin-top: 50px;
+    margin-top: 77px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planeInfo .planeInfoTop + h3 + button:hover {
+    cursor: pointer;
+}
+
+.triangle{
+    font-size: .7em;
+    margin-left: 10px
 }
 
 /* tophalf bottom */
@@ -222,8 +256,15 @@ header *:hover{
     /* height: 47%; */
 }
 
-.app + .app {
-    /* margin-top: -15px */
+.app .symbol, .unlocked .symbol {
+    font-size: 4em;
+    margin-bottom: -15px;
+    margin-top: 0px
+}
+
+.unlocked .symbol{
+    font-size: 3em;
+    margin-bottom: -5px;
 }
 .app:hover, .unlocked:hover{
     background-color: pink;
@@ -247,13 +288,15 @@ header *:hover{
     background-color: pink;
     color: #2a338e;
     font-size: 2em;
-    font-weight: bold;
-    height: 75px;
-    width: 500px;
+    font-weight: 600;
+    height: 65px;
+    width: 460px;
     border-radius: 40px;
     /* margin-bottom: 200px; */
-    margin-top: 25px;
-    border: none
+    margin-top: 20px;
+    border: none;
+    padding-top: 6px;
+    margin-bottom: 20px;
 }
 
 .video:hover{
@@ -266,13 +309,15 @@ header *:hover{
     margin-top: 40px;
 }
 
+
+
 /* bottom half green background */
 
 .bottomHalf{
     background-color: #1c9763;
     margin-top: -20px;
     padding-top: 40px;
-    padding-bottom: 200px;
+    padding-bottom: 225px;
 }
 
 .bottomHalf > *{
@@ -285,6 +330,7 @@ header *:hover{
     color: white;
     font-size: 2.7em;
     margin-bottom: 35px;
+    margin-top: 10px
 }
 
 .controller {
@@ -297,7 +343,7 @@ header *:hover{
     padding: .35em;
     display: flex;
     height: 300px;
-    margin-top: 30px !important
+    margin-top: -2px !important
 }
 .bottomHalf .top img{
     border: 1px solid grey;
@@ -333,14 +379,14 @@ header *:hover{
 .rightSide button {
     color: green;
     background-color: white;
-    border: 1px solid grey;
+    border: 2px solid rgba(128, 128, 128, .5);
     height: 45px;
     width: 310px;
     border-radius: 40px;
     font-size: 1.5em;
     font-weight: bold;
     /* margin: auto; */
-    margin-top: 120px;
+    margin-top: 115px;
 }
 
 .rightSide:hover button{
@@ -363,6 +409,10 @@ header *:hover{
     width: 23%;
 }
 
+.row1 img:hover, .row2 img:hover{
+    cursor: pointer;
+}
+
 .row2{
     margin-top: 8px
 }
@@ -375,6 +425,12 @@ header *:hover{
     justify-content: space-between;
 }
 
+.playBox:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
 .playBox *{
     margin: 0
 }
@@ -385,6 +441,7 @@ header *:hover{
 
 .green{
     color: green;
+    /* font-weight: bold; */
 }
 
 /* ad */
@@ -395,8 +452,13 @@ header *:hover{
     width: fit-content;
     margin: auto;
     padding: 8px;
-    margin-top: 30px !important
+    margin-top: 25px !important
 }
+
+.ad:hover{
+    cursor: pointer;
+}
+
 .exitButton{
     display: block;
     text-align: right;
@@ -415,8 +477,10 @@ header *:hover{
     text-align: center;
     font-size: .7em;
     font-weight: 600;
-    padding-bottom: 1.2em;
+    padding-bottom: 10px;
+    margin-top: -5px
 }
+
 
 .gamesButtonContainer {
     display: flex;
@@ -429,8 +493,8 @@ header *:hover{
 .gamesButtonContainer button {
     color: white;
     background-color: black;
-    height: 70px;
-    width: 500px;
+    height: 65px;
+    width: 460px;
     border-radius: 40px;
     font-size: 2em;
     border: none;
@@ -449,6 +513,8 @@ footer{
     color: white;
     margin-top: -60px;
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 6px;
 }
 
 .leftColumn{
@@ -456,7 +522,7 @@ footer{
     margin-left: 40px;
     border-right: 2px solid rgba(128,128,128,.5);
     padding-right: 35px;
-    font-size: .75em;
+    font-size: .65em;
     font-weight: bold;
     height: 360px
 }
@@ -464,6 +530,7 @@ footer{
 .leftColumn p {
     margin-bottom: 20px
 }
+
 
 p.blue {
     color: skyblue
@@ -474,13 +541,20 @@ p.blue {
     cursor: pointer;
 }
 
+.bestfriends{
+    color: hotpink !important;
+}
+
 p.blue:hover {
     color: skyblue
 }
 
 .middleColumn{
+    /* border: 2px solid red; */
     margin: 50px;
-    margin-left: 80px
+    margin-left: 70px;
+    width: 500px;
+    margin-top: 60px
 }
 
 .cart{
@@ -488,29 +562,34 @@ p.blue:hover {
 }
 
 .topText{
-    font-size: .75em;
+    font-size: .62em;
     font-weight: bold;
     margin-top: 22px
 }
 
 p.grey{
-    color: grey;
-    font-size: .65em;
-    margin-top: 30px
+    color: lightgray;
+    font-size: .5em;
+    margin-top: 25px
 }
 
 .bottomImg{
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .bottomImg img{
     height: 30px;
-    margin-right: 20px
+    margin-right: 17px
 }
 
 .lastText{
-    font-size: .8em;
-    margin-top: 30px
+    font-size: .65em;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.footerHoverImg:hover{
+    cursor: pointer;
 }
 
 /*  */
@@ -530,10 +609,10 @@ p.grey{
 
 @keyframes enlarge {
     100%{
-        width: 580px;
-        height: 90px;
+        width: 555px;
+        height: 80px;
         font-size: 2.5em;
-        margin-bottom: -20px;
+        margin-bottom: -15px;
     }
 }
 
@@ -566,7 +645,7 @@ p.grey{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    margin-bottom: -356px;
+    margin-bottom: -385px;
     z-index: 5;
     
 }

@@ -43,3 +43,23 @@ const spinLogo = () => {
     console.log('spinning')
     logo.classList.toggle('spin')
 }
+
+
+// turn both pink when either is hovered
+// ehhhh works okay. not fully like intended but does something
+const together = document.querySelectorAll('.together')
+
+together.forEach((text) => {
+    text.addEventListener("mouseover", () => {
+        together[0].classList.add('bestfriends')
+        together[1].classList.add('bestfriends')
+    })
+})
+
+// added this. now works as intended :P
+together.forEach((text) => {
+    text.addEventListener("mouseleave", () => {
+        together[0].classList.remove('bestfriends')
+        together[1].classList.remove('bestfriends')
+    })
+})
